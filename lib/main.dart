@@ -56,37 +56,37 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: () => navigateToLoading('Shimmer'),
               style: ButtonStyle(
                 minimumSize: MaterialStateProperty.all(Size(100, 100)),
-                ),
+              ),
               child: Text(
                 'Shimmer',
                 style: TextStyle(
                   fontSize: 25.0,
                 ),
-                ),
+              ),
             ),
             TextButton(
               onPressed: () => navigateToLoading('Spinner'),
               style: ButtonStyle(
                 minimumSize: MaterialStateProperty.all(Size(100, 100)),
-                ),
+              ),
               child: Text(
                 'Spinner',
                 style: TextStyle(
                   fontSize: 25.0,
                 ),
-                ),
+              ),
             ),
             TextButton(
               onPressed: () => navigateToLoading('Progress'),
               style: ButtonStyle(
                 minimumSize: MaterialStateProperty.all(Size(100, 100)),
-                ),
+              ),
               child: Text(
                 'Progress',
                 style: TextStyle(
                   fontSize: 25.0,
                 ),
-                ),
+              ),
             ),
           ],
         ),
